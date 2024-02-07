@@ -10,6 +10,7 @@ import YusifMMC from "./pages/YusifMMC/YusifMMC";
 import NavHeader from "./components/NavHeader/NavHeader";
 import Footer from "./components/Footer/Footer";
 import Interyer from "./pages/Interyer/Interyer";
+import Sidebar from "./components/Sidebar/Sidebar";
 
 function App() {
   return (
@@ -28,6 +29,8 @@ function App() {
           <Route path="/yusifummmc" element={<YusifMMC />} />
           <Route path="/interyer" element={<Interyer />} />
         </Routes>
+
+        <Sidebar />
 
         <Footer />
       </BrowserRouter>
