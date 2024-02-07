@@ -1,8 +1,8 @@
 import { useContext } from 'react'
 import { SidebarContext } from '../../contexts/SidebarContext';
 import { FaArrowRight } from "react-icons/fa";
-// import TreeView from './tree-view';
-// import menus from './tree-view/data';
+import TreeView from '../tree-view';
+import menus from '../tree-view/data';
 
 const Sidebar = () => {
 
@@ -18,7 +18,7 @@ const Sidebar = () => {
         </div>
 
         <div>
-            {/* <TreeView menus={menus} /> */}
+            <TreeView menus={menus} />
         </div>
 
       </div>
