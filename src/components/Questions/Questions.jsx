@@ -9,7 +9,7 @@ const Questions = () => {
     
   return (
     <div>
-      <section className="faqs">
+      <section className="faqs pl-8 pr-8">
       <div className="container faqs__container">
         <SectionHead icon={<FaQuestion/>} title='FAQs'/>
         <div className="faqs__wrapper">
