@@ -10,11 +10,11 @@ const About = () => {
       <header className="header">
         <div className="header__container">
           <div className="header__container-bg">
-            <img src={About_Bg_Image} alt="Header bg Image" />
+            <img className="w-full" src={About_Bg_Image} alt="Header bg Image" />
           </div>
           <div className="header__content">
             <h2 className="about_h2">Haqqımızda</h2>
-            <p>
+            <p className="head_about_p">
               Sena Qrup, bu şirkətlər arasında sahib olduğu fəaliyyət sahələri
               ilə müştərilərə müxtəlif xidmətlər təqdim etməklə birlikdə,
               sürətli inkişaf və sənaye sahəsində keyfiyyətli məhsulların
@@ -31,9 +31,9 @@ const About = () => {
           </div>
 
           <div className="about__section-content">
-            <h1>Məqsədimiz</h1>
+            <h1 className="title_h1">Məqsədimiz</h1>
 
-            <p>
+            <p className="desc_p">
             Sena Qrupunun məqsədi, müxtəlif sahələrdə fəaliyyət göstərən şirkətlərin birləşməsi 
             ilə müştərilərinin tələblərinə uyğun, təkmilləşdirilmiş və inovativ xidmətlər və 
             məhsullar təmin etməkdir. Qrup, sürətli inkışaf, müştəri memnuniyyəti, 
@@ -47,9 +47,9 @@ const About = () => {
       <section className="about__Vision">
         <div className="container about__Vision-container">
           <div className="about__section-content">
-            <h1>Vəzifəmiz</h1>
+            <h1 className="title_h1">Vəzifəmiz</h1>
 
-            <p>
+            <p className="desc_p">
             Sena Qrupunun vəzifəsi, müxtəlif sahələrdə fəaliyyət göstərən şirkətlərini 
             birləşdirərək müştərilərinə təkmilləşdirilmiş, inovativ, və 
             keyfiyyətli xidmətlər və məhsullar təmin etməkdir. 
@@ -73,9 +73,9 @@ const About = () => {
           </div>
 
           <div className="about__section-content">
-            <h1>İstiqamətimiz</h1>
+            <h1 className="title_h1">İstiqamətimiz</h1>
 
-            <p>
+            <p className="desc_p">
             Sena Qrupunun istiqaməti, müxtəlif sahələrdə fəaliyyət göstərən 
             şirkətlərin birləşməsi ilə keyfiyyətli, inovativ, və 
             müstəqil xidmətlər təmin etməkdir. 

@@ -9,11 +9,11 @@ export const menus = [
   },
   {
     label: "Companines",
-    to: "/companines",
+    to: "/",
     children: [
       {
         label: "Yusuf-UM MMC",
-        to: "/yusuf-um mmc",
+        to: "/yusifummmc",
         children: [
           {
             label: "Su əsaslı  boyalar",
@@ -43,7 +43,7 @@ export const menus = [
       },
       {
         label: "Unity MMC",
-        to: "/unit mmc",
+        to: "/unity",
         children: [
           {
             label: "Maliyyə və Mühasibatlıq",
@@ -65,7 +65,7 @@ export const menus = [
       },
       {
         label: "EH Trade",
-        to: "/eh trade",
+        to: "/ehtrade",
         children: [
           {
             label: "Toz boya məhsullar",

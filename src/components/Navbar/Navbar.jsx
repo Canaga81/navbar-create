@@ -7,8 +7,8 @@ const Header = () => {
   const { isOpen, setIsOpen } = useContext(SidebarContext);
 
   return (
-    <header className="w-full h-[80px] flex items-center pl-12 pr-12">
-      <div className="container mx-auto flex justify-between h-[full] ">
+    <header className="w-full h-[100px] flex items-center pl-12 pb-6 pr-12">
+      <div className="container mx-auto flex justify-between h-[full]">
         <div>
           <h1>Navbar</h1>
         </div>

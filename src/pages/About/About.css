@@ -1,5 +1,5 @@
 .header {
-    margin-top: -2rem;
+    /* margin-top: 0rem; */
     height: 20rem;
     overflow: hidden;
     border-bottom: 2px solid var(--color-gray-400);
@@ -30,34 +30,35 @@
     text-align: center;
 }
 
-.header__content h2 {
+.header__content .about_h2 {
     margin-bottom: 1rem;
+    color: #fff;
 }
 
-.header__content p {
+.header__content .head_about_p {
     color: rgba(255, 255, 255, 0.7);
 }
 
 .about__section-image {
-    border-radius: 50%;
     overflow: hidden;
-    transform: skew(15deg);
+    border-radius: 3px;
     transition: all 0.25s ease-in;
+    width: 500px;
 }
 
-.about__section-image:nth-child(2) {
-    transform: skew(-15deg);
+.about__section-image {
+    transform: skew(0deg);
 }
 
 .about__section-image:hover {
-    transform: skew(0);
+    transform: scale(1.05);
 }
 
-.about__section-content h1 {
+.about__section-content .title_h1 {
     margin-bottom: 2rem;
 }
 
-.about__section-content p {
+.about__section-content .desc_p {
     margin-bottom: 1rem;
     line-height: 1.5;
     font-family: sans-serif;
@@ -82,8 +83,8 @@
     color: #fff;
 }
 
-h1,
-h2,
+.title_h1,
+.about_h2,
 h3,
 h4,
 h5 {
@@ -91,27 +92,33 @@ h5 {
     color: var(--color-gray-100);
 }
 
-h1 {
+.title_h1 {
     font-size: 3rem;
 }
 
-h2 {
+.about_h2 {
     font-size: 2rem;
 }
 
 .about__story {
     margin-top: 5rem;
     padding-bottom: 2rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
 }
 
 .about__Vision {
     padding-top: 2rem;
     padding-bottom: 2rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
 }
 
 .about__mission {
     margin-bottom: 5rem;
     padding-top: 2rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
 }
 
 /* --container-width-lg: 80%;
@@ -169,7 +176,7 @@ img {
         gap: 2rem;
     }
 
-    .about__section-content h1, .about__section-content p {
+    .about__section-content .title_h1, .about__section-content .desc_p {
         text-align: center;
     }
 }
@@ -180,11 +187,11 @@ img {
         width: 76%;
     }
 
-    h1 {
+    .title_h1 {
         font-size: 2rem;
     }
 
-    h2 {
+    .about_h2 {
         font-size: 1.6rem;
     }
 
@@ -205,7 +212,7 @@ img {
         font-size: 0.84rem;
     }
 
-    h1 {
+    .title_h1 {
         font-size: 2.2rem;
         line-height: 1.3;
     }
