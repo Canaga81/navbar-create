@@ -11,7 +11,7 @@ const Questions = () => {
     <div>
       <section className="faqs pl-8 pr-8">
       <div className="container faqs__container">
-        <SectionHead icon={<FaQuestion/>} title='FAQs'/>
+        <SectionHead title='Tez-Tez Verilen Suallar'/>
         <div className="faqs__wrapper">
           {
             faqs.map(({id,question,answer})=>{

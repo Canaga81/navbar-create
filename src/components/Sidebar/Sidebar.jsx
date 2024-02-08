@@ -18,7 +18,7 @@ const Sidebar = () => {
         </div>
 
         <div>
-            <TreeView menus={menus} />
+            <TreeView menus={menus} handleClose={handleClose} />
         </div>
 
       </div>

@@ -4,6 +4,11 @@
     width: 100%;
 }
 
+.services_title {
+    font-size: 50px;
+    letter-spacing: 1.5px;
+}
+
 .services_container {
     margin-top: 8rem;
     display: flex;
@@ -136,6 +141,10 @@
         font-size: 14px;
     }
 
+    .services_title {
+        font-size: 36px;
+    }
+
 }
 
 @media(max-width: 530px) {
@@ -178,6 +187,10 @@
 
     .content p {
         font-size: 12px;
+    }
+
+    .services_title {
+        font-size: 27px;
     }
 
 }
