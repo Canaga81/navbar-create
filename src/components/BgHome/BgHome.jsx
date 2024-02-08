@@ -57,7 +57,7 @@ const BgHome = () => {
                 {title}
               </h1>
               <Link to={`/${link}`}>
-                <button className="btn_bg">
+                <button className="btn_bg mt-96">
                   {btnText}
                 </button>
               </Link>

@@ -2,7 +2,7 @@ import React from "react";
 import "./UnityBg.css";
 import Unity_Bg_Image from "../../images/card_consulting.jpg";
 import { Link } from "react-router-dom";
-import Unity_Image_Bg_2 from '../../images/About_1_Image.jpg'
+import Unity_Image_Bg_2 from "../../images/About_1_Image.jpg";
 
 const UnityBg = () => {
   return (
@@ -15,9 +15,9 @@ const UnityBg = () => {
           <div className="header__content">
             <h2 className="about_h2">Unity</h2>
             <p>
-            Unity Consulting, müştərilərin iş stratejisinin təyin edilməsi və inkişaf etdirilməsi üçün kömək edir. 
-            İş stratejisi, müştərinin hədəflərinə nail olmaq və rekabət sahəsində üstünlük 
-            qazanmaq üçün zəruri olan nailiyyətləri təyin etməyə kömək edir.
+              Unity Consulting MMC 5 ildən çoxdurki mühasibatlıq,vergi,audit və
+              dizaynla məşğuldur. Bir çox sahibkarlara vgömrük rəsmiləşdirilməsi
+              xidmətlərində dəstək göstərmişdir.
             </p>
           </div>
         </div>

@@ -1,5 +1,6 @@
 import "./CompaniesGeneral.css";
 import HomeCartData from "../HomeCartData";
+import { Link } from "react-router-dom";
 
 const CompaniesGeneral = () => {
   return (
@@ -18,6 +19,9 @@ const CompaniesGeneral = () => {
               <div className="Companies_General_card-bottom">
                 <h3>{item.title}</h3>
                 <p>{item.description}</p>
+                <Link to={item.link}> 
+                  <button className="Companies_General_btn">Daha ətraflı</button> 
+                </Link>
               </div>
             </div>
           );
